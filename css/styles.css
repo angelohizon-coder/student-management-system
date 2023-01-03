@@ -1,0 +1,42 @@
+* {
+    font-family: "Arial";
+}
+
+h1 {
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-link {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+.nav-link a, .nav-link form {
+    padding: 5px 5px 0 5px;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100vw;
+}
+
+thead {
+    border-bottom: 1px solid black;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+/* this allows the even numbered child to have different background color */
+tbody tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
